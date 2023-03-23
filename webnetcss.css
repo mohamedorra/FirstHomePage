@@ -1,0 +1,615 @@
+
+*{
+    margin: 0 0;
+    padding: 150 150 50 50;
+
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+.navigation{
+
+    padding: 7px 7px;
+    width: auto;
+    background: #0c3469;
+    text-align: right;
+    
+}
+.navigation ul{
+  display: flex;
+  margin-left: auto;
+  justify-content: end;
+   gap: 2rem;
+}
+.navigation ul li a{
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 10px;
+    text-align: right;
+
+   
+}
+
+
+.prefeitura{
+  display: flexbox;
+    height: 70px;
+    width: 100%;
+    padding-left: 150px;
+    display: flex;
+    gap : 2rem  
+    
+}
+
+.icon-insta{
+    padding-left: 300px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: -20px;
+}
+.icon-face{
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: -200px;
+}
+
+.icon-twitter{
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: -20px;
+}
+.search{
+  margin-left: 170px;
+  
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  padding: 15px;
+  
+  padding-right: 0px;
+  margin-right: -67px;
+}
+.btn-search img{
+  height: 30px;
+  padding-bottom: 5px;
+  background-color: none;
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-left: 0px;
+  display:flexbox;
+  border-radius: 300px;
+
+}
+
+div.container{
+  display: flex;
+  margin-right: -170px;
+  margin-top: 15px;
+  margin-left: 40px;
+  flex-wrap: nowrap;
+}
+#month-year{
+  display: inline;
+  margin-top: 15px;
+}
+
+#day{
+
+  
+  padding-right: 5px;
+  margin-top: 15px;
+
+}
+
+.menu {
+  
+  display: flexbox;
+    flex-wrap: nowrap;
+  height: 40px;
+}
+
+#ulmenu{
+  display: flex;
+  justify-content: center;
+  background-color: #0c3469;
+}
+.ulmenuu{
+  display: flex;
+}
+
+
+.menu ul li a {
+  justify-content: space-around;
+  padding: 10px 30px;
+  margin-left: 5px;
+align-items: center;
+  font-size: 10pt;
+  display: flex;
+  color: white;
+  background-color: #0c3469;
+  flex-wrap: nowrap;
+}
+.DESTAQUE{
+  margin-top: 20PX;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  color: #0c3469;
+  font-size:x-large;
+}
+.div-destaques{
+
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.imagem_dinosauro img{
+  border: 2px transparent;
+border-radius: 10px 10px 10px 10px;
+  margin-right: 85px;
+
+}
+.roxo img{
+  border: 2px transparent;
+  border-radius: 10px 10px 10px 10px;
+  outline-offset: 0px;
+}
+.menu2 ul li a {
+  justify-content: space-around;
+  padding: 10px 30px;
+  margin-left: 5px;
+align-items: center;
+  font-size: 10pt;
+  display: flex;
+  color: white;
+  background-color: #0c3469;
+  flex-wrap: nowrap;
+}
+.menu2 {
+   
+  display: flexbox;
+    flex-wrap: nowrap;
+  height: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  
+  border-radius: 40px;
+}
+
+#ulmenu2{
+  margin-top: 40px;
+  height: 50px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px transparent;
+ background-color: #0c3469;
+  margin-bottom: 50px;
+
+}
+.Transparencia{
+  display: flex;
+  height: 30px;
+}
+.Transparencia a{
+  margin-left: -20px;
+  height: 30px;
+}
+.NOTICIAS{
+  margin-top: 50PX;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  color: #0c3469;
+  font-size:x-large;
+}
+.imagem_noticia1{
+  margin-right: 2px;
+}
+.div-noticia{
+  display: flex;
+}
+.imagem_noticia1 img{
+  border: 2px transparent;
+  border-radius: 15px;
+  margin-left: 220px;
+  height: 300px;
+  display: flex;
+  
+}
+.imagem_noticia1 h5{
+  border-bottom: 3px solid rgba(54, 54, 80, 0.829);
+  margin-top: 10px;
+  width: 105px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 220px;
+  margin-right: 90px;
+  color: gray
+}
+.imagem_noticia1 p{
+  width: 395px;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-left: 220px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  color: rgb(32, 28, 28);
+  
+}
+.noticia2 {
+  display: flex ;
+}
+.noticia2 img{
+  height: 130px;
+  margin-left: 50px;
+  border: 2px transparent;
+  border-radius: 15px;
+}
+.noticia2 h5{
+  border-bottom: 3px solid rgba(54, 54, 80, 0.829);
+  margin-top: 10px;
+  width: 105px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 90px;
+  color: gray
+}
+.noticia2 p{
+  width: 160px;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  color: rgb(32, 28, 28);
+  
+}
+
+
+.noticia3 img{
+  height: 130px;
+  margin-left: -178px;
+  border: 2px transparent;
+  border-radius: 15px;
+  width: 185px;
+  margin-top: 35px;
+}
+.noticia3_texto{
+  margin-top:-150px
+}
+
+.cont{
+  justify-content: center;
+  padding-left: 200px;
+}
+.btn-veja input{
+  
+  width: 90px;
+  background-color: #0c3469;
+  border: 2px transparent;
+  border-radius: 15px;
+  height: 27px;
+  margin-left: 1000px;
+  color: white;
+  
+}
+.galeria-cont{
+  border: 3px solid;
+  border-radius: 77% 90% 78% 84% / 72% 100% 63% 92% / 72% 10% 63% 92%;
+  margin-bottom: 50px;
+  height: 80px;
+  background-color: #0c3469;
+} 
+.galeria-div{
+  background-color: #0c3469;
+  padding-top: 10px;
+  margin-top: 20px;
+ 
+}
+.galeria{
+  margin-top: 20PX;
+  margin-left: 220px;
+  margin-bottom: 10px;
+  color: #e2e7ec;
+  font-size:x-large;
+}
+.galeria-fotos{
+  display: flex;
+  margin-right: 20px;
+  
+  margin-left: 220px;
+}
+.sol img{
+  margin-right: 20px;
+  border: 3px transparent;
+  border-radius: 15px;
+  height: 120px;
+}
+.cidade img{
+  margin-right: 20px;
+  border: 3px transparent;
+  border-radius: 15px;
+  height: 120px;
+}
+.igre img{
+  margin-right: 20px;
+  border: 3px transparent;
+  border-radius: 15px;
+  height: 120px;
+}
+.galeria-fotos2{
+  margin-top: 15px;
+  display: flex;
+  margin-right: 20px;
+  
+  margin-left: 220px;
+}
+.sol img{
+  margin-right: 20px;
+  border: 3px transparent;
+  border-radius: 15px;
+  height: 120px;
+}
+.cidade img{
+  margin-right: 20px;
+  border: 3px transparent;
+  border-radius: 15px;
+  height: 120px;
+}
+.igre img{
+  padding-right: 0px;
+  border: 3px transparent;
+  border-radius: 15px;
+  height: 120px;
+}
+
+.xx{
+  
+  display: flex;
+  width: 40%;
+  margin-left: 3px;
+
+}
+.video{
+  margin-left: -10px;
+  
+}
+.video iframe{
+  height: 230px;
+  width: 430px;
+}
+.video h1{
+  
+  width: auto;
+  font-size: 22px;
+  color: white;
+  margin-top: 5px;
+}
+.btn-galeria input{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 90px;
+  background-color:#0c3469;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 27px;
+  margin-left: 1000px;
+  color: white;
+  
+}
+.TURISMO{
+  padding-top: 10PX;
+  margin-left: 230px;
+  margin-bottom: 10px;
+  color: white;
+  font-size:x-large;
+}
+.turismo{
+  background-color: rgb(5, 132, 182);
+   
+}
+.cardss{
+  padding-bottom: 50px;
+}
+/*//////////////////////////////////////////*/
+.row{
+  display:flex;
+  margin-left: 230px;
+ 
+  
+}
+.card1 img{
+  border: 2px transparent;
+  border-radius: 20px;
+  justify-content: left;
+  margin-right: 20px;
+  width: 270px;
+}
+
+.card2 img{
+  border: 2px transparent;
+  border-radius: 20px;
+  justify-content: left;
+  margin-right: 20px;
+  width: 270px;
+  height: 332.2px;
+}
+.card3 img{
+  border: 2px transparent;
+  border-radius: 20px;
+  justify-content: left;
+  margin-right: 20px;
+  width: 270px;
+  height: 332.2px;
+}
+
+.footer{
+  width: 700px;
+  border-right: 2px solid;
+  
+  
+}
+.eventoo{
+  margin-left: 220px;
+  margin-right: 30px;
+  width: 30%;
+  display: flex;
+  margin-bottom: 30px;
+ margin-top: 30px;
+}
+.Eventos{
+  margin-top: 40px;
+  color:#0c3469;
+  font-size:x-large;
+  margin-left: 220px;
+  
+}
+.ler{
+  width: 280px;
+}
+.festa{
+  width: 300px;
+}
+.j15{
+ 
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+ 
+  background-color: #0c3469;
+  color: white;
+  
+
+}
+.eventoo h2{
+  margin-left: 30px;
+  color : gray;
+}
+.eventoo h5{
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 30px;
+  color : gray;
+}
+.feira{
+  width: 360px;
+}
+.btn-eventos input{
+  margin-bottom: 50px ;
+  margin-left: 40%;
+  background-color: #0c3469;
+  border: 3px transparent;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 15px 5px 15px;
+
+
+}
+.btn-eventos{
+  display: flex;
+}
+.Editais{
+  margin-top: 40px;
+  color:#0c3469;
+  font-size:x-large;
+  margin-left: 430px;
+  
+
+}
+.pdf img{
+  border: 2px transparent;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 7px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  height: 80px;
+}
+.pdf{
+  display: flex;
+}
+.editais{
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: rgb(99, 98, 98);
+}
+.coleta{
+  display: flex;
+  justify-content: center;
+
+}
+.coleta img{
+  margin-top: 20px;
+  margin-bottom: 60px;
+  height: 50px;
+  width: 34;
+  border: 2px transparent;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.final{
+  height: 185px;
+  background-color: #0a597e;
+  display: flex;
+  
+}
+.final img{
+  height: 85px;
+  background-color: #0a3c7e;
+  border: 2px transparent;
+  border-radius: 50px;
+}
+.reta-final{
+  display: flex;
+  padding-top: 15px;
+  margin-left: 20%;
+  margin-top: 35px;
+  border-right: 2px solid;
+  padding-right: 175px;
+
+}
+.reta-final h4{
+  color: #e2e7ec;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.reta-finalzão h4{
+  color: #e2e7ec;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.prefeitura2 h6{
+  color: #e2e7ecb9;
+  margin-left: 18px;
+  margin-bottom: 3px;
+  
+
+}
+.reta-finalzão{
+  
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.xi{
+  display: flex;
+}
+.assina{
+  background-color: #0a597e;
+
+}
+.assina h3, h5{
+  margin-left: 370px; 
+  color:#e2e7ecb9
+}
